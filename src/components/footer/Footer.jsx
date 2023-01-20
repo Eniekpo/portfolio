@@ -1,10 +1,10 @@
 import './footer.css'
-import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className='footer-logo'>YOLE-TECH</a>
+      <a href="#home" className='footer-logo'>YOLE-TECH HUB</a>
 
       <ul className='permalinks'>
         <li><a href="#home">HOME</a></li>
@@ -17,14 +17,14 @@ const Footer = () => {
       </ul>
 
       <div className="footer-socials">
-        <a href="https://facebook.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
-        <a href="https://twitter.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaTwitter/></a>
-        <a href="https://instagram.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaInstagram/></a>
-        <a href="https://linkedin.com/in/Eniekpo" target='_blank' rel='noreferrer noopener'><FaLinkedin/></a>
+        <a href="https://facebook.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaFacebook /></a>
+        <a href="https://twitter.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaTwitter /></a>
+        <a href="https://instagram.com/Eniekpo" target='_blank' rel='noreferrer noopener'><FaInstagram /></a>
+        <a href="https://linkedin.com/in/Eniekpo" target='_blank' rel='noreferrer noopener'><FaLinkedin /></a>
       </div>
 
       <div className="footer-copyright">
-        <small>Copyright &copy; Yole-Tech 2022, All Rights Reserved</small>
+        <small>Copyright &copy; Yole-Tech 2023, All Rights Reserved.</small>
       </div>
     </footer>
   )

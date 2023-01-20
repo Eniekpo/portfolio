@@ -2,7 +2,7 @@ import './testimonials.css'
 import Avatar from '../../assets/profile.png'
 
 // import Swiper core and required modules
-import {Pagination} from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,22 +14,22 @@ const data = [
   {
     avatar: Avatar,
     name: 'John Rose',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Eligendi reiciendis perferendis cumque in odit sed id, ducimus culpa recusandae iusto.'
+    review: 'He Designed my e-commerce website and it is wonderful, I will recommend him for any web development job.'
   },
   {
     avatar: Avatar,
     name: 'John Rose',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Eligendi reiciendis perferendis cumque in odit sed id, ducimus culpa recusandae iusto.'
+    review: 'He Designed my e-commerce website and it is wonderful, I will recommend him for any web development job.'
   },
   {
     avatar: Avatar,
     name: 'John Rose',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Eligendi reiciendis perferendis cumque in odit sed id, ducimus culpa recusandae iusto.'
+    review: 'He Designed my e-commerce website and it is wonderful, I will recommend him for any web development job.'
   },
   {
     avatar: Avatar,
     name: 'John Rose',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Eligendi reiciendis perferendis cumque in odit sed id, ducimus culpa recusandae iusto.'
+    review: 'He Designed my e-commerce website and it is wonderful, I will recommend him for any web development job.'
   },
 ]
 
