@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className=" container nav-container">
+            <div className="container nav-container">
                 <Link to='/' className='logo' onClick={() => setIsNavShowing(false)}>
                     <img src={logo} alt="Logo" width='200' />
                 </Link>

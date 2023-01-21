@@ -20,6 +20,7 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    font-size: 1.2rem;
 }
 .footer-socials {
     display: flex;

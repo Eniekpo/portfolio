@@ -20,14 +20,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-left: 0;
 }
 .logo {
   width: 12rem;
+  margin-left: 1.5rem;
 }
 
 .nav-links {
   display: flex;
-  gap: 3.5rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -36,6 +38,7 @@ nav {
   font-size: 1.2rem;
   font-weight: 600;
   color: #fff;
+  text-transform: uppercase;
 }
 .nav-links a:hover {
   color: rgb(230, 227, 250);

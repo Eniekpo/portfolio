@@ -3,9 +3,6 @@
   grid-template-columns: 35% 55%;
   gap: 10%;
 }
-h5{
-    font-size: 1.5rem;
-}
 .about-me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -87,10 +84,10 @@ p {
 
 /* =========== MEDIA QUERIES(Small Screens) ===========  */
 @media screen and (max-width: 600px) {
-  .about-me {
+  /* .about-me {
     width: 65%;
     margin: 0 auto 3rem;
-  }
+  } */
   .about-cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -100,5 +97,9 @@ p {
   }
   .about-content p {
     margin: 1.5rem 0;
+  }
+  .about-me-image,
+  .about-me {
+    display: none;
   }
 }

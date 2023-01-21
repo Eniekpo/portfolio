@@ -1,8 +1,8 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
   overflow: hidden;
   background-color: rgb(236, 228, 228);
+  padding-top: 10rem;
 }
 .header-container {
   text-align: center;
@@ -30,12 +30,14 @@ h5 {
   left: 0;
   position: absolute;
   bottom: 3rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  top: 3rem;
 }
 .header-socials::after {
   content: " ";
-  width: 2px;
+  width: 3px;
   height: 2rem;
+  padding-top: 3rem;
   background: var(--color-primary);
 }
 
@@ -44,7 +46,7 @@ h5 {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
